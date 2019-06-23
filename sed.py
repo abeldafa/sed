@@ -94,7 +94,7 @@ def preprocess_data(_X, _Y, _X_test, _Y_test, _seq_len, _nb_ch):
 
 is_mono = False  # True: mono-channel input, False: binaural input
 
-feat_folder = '/proj/asignal/DCASE2017/task_3/feat/'
+feat_folder = '/mnt/feat_folder/'
 __fig_name = '{}_{}'.format('mon' if is_mono else 'bin', time.strftime("%Y_%m_%d_%H_%M_%S"))
 
 
